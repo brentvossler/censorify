@@ -11,11 +11,11 @@ function censor(inStr) {
     return inStr;
 }
 
-function AddCensoredWord(word) {
+function addCensoredWord(word) {
     customCensoredWords.push(word);
 }
 
-function getCensoredWords(){
+function getCensoredWords() {
     return censoredWords.concat(customCensoredWords);
 }
 

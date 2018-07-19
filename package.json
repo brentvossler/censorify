@@ -3,9 +3,23 @@
   "version": "0.1.1",
   "description": "Censors words out of text",
   "main": "censortext",
+  "author": "Brent Vossler",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brentvossler/censorify"
+  },
+  "keywords": [
+    "censor",
+    "words"
+  ],
+  "dependencies":{
+    
+  },
+  "engines": {
+    "node": "*"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Brent Vossler",
-  "license": "ISC"
+  }
 }
